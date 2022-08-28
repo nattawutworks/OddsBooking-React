@@ -12,7 +12,7 @@ const Layout : React.FC<LayoutProps> = ({children}) => {
         <div className="navbar">
             <Navbar />
         </div>
-        <div className="main">
+        <div className="main-layout">
             {children}
         </div>
     </div>);
